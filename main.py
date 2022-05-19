@@ -17,7 +17,6 @@ from sql import add_user, query_msg
 from support import users_info
 from datetime import datetime, timedelta,date
 import csv
-from var import Var
 
 if not os.path.exists(f"Users/2056781888/phone.csv"):
    os.mkdir('./Users')
